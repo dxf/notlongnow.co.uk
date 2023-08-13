@@ -18,7 +18,7 @@ body {
   align-items: center;
   background-color: white;
   display: flex;
-  font-family: "Comic Sans MS"
+  font-family: "Comic Sans MS", cursive
 }
 
 .container {
