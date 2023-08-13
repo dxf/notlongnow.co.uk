@@ -4,7 +4,7 @@
         hour = minute * 60,
         day = hour * 24;
 
-  let today = new Date(), event = "08/10/2023 16:00:00";
+  let today = new Date(), event = "26/10/2023 16:00:00";
   
   
   const countDown = new Date(event).getTime(),
