@@ -4,7 +4,7 @@
         hour = minute * 60,
         day = hour * 24;
 
-  let today = new Date(), event = "02/22/2024 16:00:00";
+  let today = new Date(), event = "03/28/2024 16:00:00";
   
   
   const countDown = new Date(event).getTime(),
@@ -20,7 +20,7 @@
 
         //do something later when date is reached
         if (distance < 0) {
-          document.getElementById("headline").innerText = "lan time!";
+          document.getElementById("headline").innerText = "LAN TIME!";
           document.getElementById("countdown").style.display = "none";
           document.getElementById("content").style.display = "block";
           clearInterval(x);
